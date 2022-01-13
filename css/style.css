@@ -1,0 +1,135 @@
+/* Biodata section */
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+  border: 1px solid darkkhaki;
+  text-align: left;
+  padding: 6px;
+  border-collapse: collapse;
+  border-style: groove;
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body
+a:link
+    {
+        color: white;
+        background-color: wheat;
+        text-decoration: none;
+        padding: 15px;
+    }
+a:visited
+    {
+        color: whitesmoke;
+        background-color: lightslategray;
+        text-decoration: none;
+        padding: 15px;
+    }
+a:hover
+    {
+        color: cadetblue;
+        background-color: whitesmoke;
+        text-decoration: underline;
+    }  
+a:active
+    {
+        color: lightgoldenrodyellow;
+        background-color: skyblue;
+        text-decoration: underline;
+    }
+
+/* Education Section */
+#Education{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.row{
+    display: flex;   
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(151, 180, 207) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: whitesmoke;
+    border: none;
+    box-shadow: 0 0 20px rgb(151, 180, 207);
+}
+h1{
+    text-align: center;
+}
+
+/* About section */
+#about {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 350px;
+    height: 480px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;  
+}
+
+/* Gallery section */
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+video {
+    display: block;
+    margin: auto;
+}
+
+/* Family section */
+h2 {
+    color: chocolate;
+    text-align: center;
+}
